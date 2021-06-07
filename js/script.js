@@ -4,7 +4,7 @@ var argComputerMove, argMoveId, argPlayerMove, computerMove, playerInput, player
  * Describe this function...
  */
 function getMoveName(argMoveId) {
-  console.log('wywołano funkcję getMoveName z argumentem: ' + argMoveId);
+  console.log('wywołano funkcję getMoveName z arg: ' + argMoveId);
   if (argMoveId == 1) {
     return 'kamień';
   } else {
