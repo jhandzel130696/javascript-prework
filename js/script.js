@@ -7,7 +7,7 @@ const argButtonName, buttonPaper, buttonRock, buttonScissors, buttonTest;
  */
 function buttonClicked(argButtonName) {
   clearMessages();
-  console.log(argButtonName + ' został kliknięty');
+  console.log(argButtonName + ' zostal kliknięty');
   const randomNumber = Math.floor(Math.random() * 3 + 1);
   console.log('wylosowana liczba to: ' + randomNumber);
   const computerMove = getMoveName(randomNumber);
