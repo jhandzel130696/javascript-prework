@@ -1,6 +1,6 @@
 
 
-const argButtonName, buttonPaper, buttonRock, buttonScissors, buttonTest;
+const argButtonName;
 
 /**
  * Describe this function...
@@ -70,6 +70,11 @@ console.log('wylosowana liczba to: ' + randomNumber);
 computerMove = getMoveName(randomNumber);
 console.log('ruch komputera to: ' + computerMove);
 displayResult(playerMove, computerMove);
+
+const buttonTest;
+const buttonRock;
+const buttonPaper;
+const buttonScissors;
 
 
 buttonTest = document.getElementById('button-test');
